@@ -6,3 +6,4 @@ describe("typeOfValue2", function () {
     expect(typeOfValue2()).to.eql("2");
   });
 });
+
