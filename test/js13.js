@@ -1,4 +1,4 @@
-import { expect } from "chai";
+import { expect,assert } from "chai";
 import SpaceName from "../lib/js13";
 
 describe("Space Name", function () {
@@ -9,7 +9,8 @@ describe("Space Name", function () {
   it("it printed error when index is over", function () {
     expect(SpaceName(9)).to.eql(undefined);
   });
-  it("should not allow strings", function () {
+
+  it("it printed error when index is over", function () {
     assert.doesNotThrow(() => collection.push(4), TypeError);
   });
 });
